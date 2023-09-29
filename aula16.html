@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kabum</title>
+</head>
+<body>
+    <style>
+        body{
+        background-color: antiquewhite;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        max-width: 1080;
+        margin: auto;
+    }
+    header{
+        background-color: rgb(0, 47, 255);
+        width:100%;
+    }
+    .menu{
+        width: 40%;
+    }
+    .logo, .sociais{
+        width:30%;
+        margin: none;
+        margin-right: 10%;
+    
+    }
+    .logo img{
+        width:30% ;
+        
+    }
+    .menu nav a{
+        color: black;
+        text-decoration: nome;
+        padding: 10px;
+        font-family: 18px;
+    }
+    .sociais button{
+        background-color: antiquewhite;
+        padding: 10px;
+        border-radius: 10%;
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .quadrado{
+    width: 300px;
+    text-align: center;
+    background-color: rgb(231, 229, 229);
+    border: 2px solid rgb(204, 202, 202);
+    margin-right: 40%;
+    margin-right: 10%;
+    padding: 50px;
+    border-radius: 10px;
+    margin: auto;
+    }
+    #escrita{
+            text-align: center;
+            color:rgb(255, 255, 255); 
+                     font-size: 25px;
+    }
+     #centralizar{
+            text-align: center;
+            font-family:"Courier New";
+             color:transparent; 
+             font-size: 20px;
+    }
+    .email{
+        margin-top: -5%;
+        width: 100%;
+        padding: 5%;
+        margin-right: 30px;
+        margin-left: -7%;
+        border-radius: 10px;
+        font-size: 15px;
+        border: 3px solid rgb(208, 206, 206);
+    }
+    .Senha{
+        width: 100%;
+        padding: 5%;
+        margin-right: 30px;
+        margin-left: -7%;
+        border-radius: 10px;
+        font-size: 15px;
+        border: 3px solid rgb(208, 206, 206);
+    }
+    .botao{
+        width: 100%;
+        padding: 5%;
+        background-color:rgb(255, 101, 0);
+        border: 1px solid rgb(1, 1, 5);
+        border-radius: 20px;
+        font-size: 20px;
+        font-family: Arial, sans-serif ;
+        color: rgb(254, 254, 254);
+    }
+    .botao2{
+        width: 90%;
+        font-size: 20px;
+        color:rgb(255, 101, 0);
+    }
+    .letras{
+        margin: 10px 10px;
+        margin-top: -20%;
+        margin-left: 10%;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 25px;
+        color:rgb(255, 101, 0);
+    }
+    .esqueceu{
+        font-size: 18px;
+        color: black;
+    }
+    
+    
+    .tradução{
+            text-align: center;
+            margin-top: -5%;
+            margin-left: -7%;
+            
+        }
+        .final{
+            margin-left: 20%;
+        }
+    </style>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <img src="download.jpeg" height="100px" width="100px">
+                </div>
+            </div>
+        </header>
+    
+        <br><br>
+    
+        <div class="quadrado">
+            <p></p><h2 class="letras">Fazer login</h2><br>
+            <input type="email" placeholder="Email ou CPF" class="email"/><br/>
+            <input type="password" placeholder="Senha" class="Senha"/><br/><br></p>
+            <input type="submit" value="ENTRAR" onclick="window.location.href='./email.html' "class="botao"><br><br>
+            
+            <div class="esqueceu">
+                <a href="esqueceuasenha.html">Esqueceu a senha?</a></br>
+            </div>
+            
+            <hr>
+            <br><input type="submit" value="Criar Nova Conta" onclick="window.location.href='./novaConta.html' "class="botao2">
+        </div>
+            
+    </body>
+    </html>
+    
+</body>
+</html>

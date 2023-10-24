@@ -1,63 +1,31 @@
-function somar() {
-    let n1 = Number(window.prompt(`Digite um número:`))
-    let n2 = Number(window.prompt(`Digite outro número:`))   
+// function calcular(){
+//     let num = Number(window.prompt('digite um número:'))
+//     let res = document.querySelector('section#result')
+//     res.innerHTML = `<p>O número a ser
+//     analisado aqui sera o <strong>${num}</strong><P>`
 
-    let res = document. querySelector(`section#res`)
-    res.innerHTML = `<span> A soma entre ${n1} e ${n2}
-    é igual a ${n1  +  n2}</span> `
+//     res.innerHTML += `<p>O seu valor absoluto é ${Math.abs(num)}</p>`
+//     res.innerHTML += `<p>A sua parte inteira é ${Math.trunc(num)}</p>`
+//     res.innerHTML += `<p>O valor inteiro mais proximo é ${Math.round(num)}</p>`
+//     res.innerHTML += `<p>A sua raiz quadrada é ${Math.sqrt(num)}</p>`
+//     res.innerHTML += `<p>A sua raiz cúbica é ${Math.cbrt(num)}</p>`
+//     res.innerHTML += `<p>O valor de ${num} <sup>2</sup> é
+//     ${Math.pow(num, 2)}</p>`
+//     res.innerHTML += `<p>O valor de ${num} <sup>3</p> é
+//     ${Math.pow(num, 3)}</p>`
+      
+// } 
+
+let contador = 0
+let res = document.querySelector('section#result')
+
+
+function contar(){
+    contador ++
+    res.innerHTML = `<p>contagem: ${contador}</p>`
+
 }
-function menos() {
-    let n1 = Number(window.prompt(`Digite um número:`))
-    let n2 = Number(window.prompt(`Digite outro número:`))   
-
-    let res = document. querySelector(`section#res`)
-    res.innerHTML = `<span> menos entre ${n1} e ${n2}
-    é igual a ${n1  -  n2}</span> `
-}
-function dividir() {
-    let n1 = Number(window.prompt(`Digite um número:`))
-    let n2 = Number(window.prompt(`Digite outro número:`))   
-
-    let res = document. querySelector(`section#res`)
-    res.innerHTML = `<span> dividir entre ${n1} e ${n2}
-    é igual a ${n1  /  n2}</span> `
-}
-function multiplicação() {
-    let n1 = Number(window.prompt(`Digite um numero:`))
-    let n2 = Number(window.prompt(`Digite outro número:`))   
-
-    let res = document. querySelector(`section#res`)
-    res.innerHTML = `<span> multiplicação entre ${n1} e ${n2}
-    é igual a ${n1 * n2} </span> `
-}
-
-function media() {
-    let nome = window.prompt("qual o seu nome")
-    let n1 = Number(window.prompt('digite a primeira nota'))
-    let n2 = Number(window.prompt('digite a outra primeira nota'))
-
-    med = (n1 + n1)/2
-
-    let msg 
-
-
-    if (med>=5){
-        msg='aprovado'
-
-    } else{
-        msg='reprovado'
-    }
-
-    let res = document.getElementById('siuacao')
-    res.innerHTML='olá, ${nome}! sua média foi ${med}!'
-    res.innerHTML='<p> A mensagens que temos é:
-    <h1 styele ="color.red" ${msg}'
-
-
-    let res=document.getElementById('situacao')
-    res.innerHTML='olá,$(nome)! sua meédia foi $(medi)!'
-
-    
-
-
+function zerar() {
+    contdor = 0
+    res.innerHTML = null
 }

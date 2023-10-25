@@ -1,9 +1,7 @@
-p{
-  color: red;
-
+.div1{
+  background-color: aqua;
+  width: 400px;
+  border: 2px solid black;
+  border-radius: 20px;
 }
- h1{
-    font-size: 45px;
-    color: blue
- }
  

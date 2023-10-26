@@ -16,16 +16,86 @@
       
 // } 
 
-let contador = 0
-let res = document.querySelector('section#result')
+
+// let contador = 0
+// let res = document.querySelector('section#result')
 
 
-function contar(){
-    contador ++
-    res.innerHTML = `<p>contagem: ${contador}</p>`
+// function contar(){
+//     contador ++
+//     res.innerHTML = `<p>contagem: ${contador}</p>`
 
-}
-function zerar() {
-    contdor = 0
-    res.innerHTML = null
+// }
+// function zerar() {
+//     contdor = 0
+//     res.innerHTML = null
+// }
+
+ 
+  function calculo(){
+    let a = Number(document.getElementById('a').value)
+    let b = Number(document.getElementById('b').value)
+    let c = Number(document.getElementById('c').value)
+
+    document.querySelector('#result').innerHTML =
+    `a soma de <mark> ${a} + $ {b} </mark> divido por
+    ${c} é igual a : ${(a+b)/c}`
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  let i = 0
+for (i = 0; i < 100; i++){
+  alert('')
 }

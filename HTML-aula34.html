@@ -6,25 +6,54 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
 
-<center>
-    <div class="div1">
- <h2>Login</h2>
- <form id="loginForm">
-    <br>
-    <label for="username">Usuário:</label>
-    <input type="text" id="username" name="username" required>
-    <br><br>
-    <label for="password">Senha:</label>
-    <input type="password" id="password" name="password" required>
-    <br><br>
-    <input type="submit" value="Entrar">
- </form>
- <p id="message"></p>
-</div>
-</center>
+<style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: linear-gradient(background: rgb(43,33,242);background: linear-gradient(90deg, rgba(43,33,242,1) 0%, rgba(5,106,203,1) 42%, rgba(0,154,223,1) 100%););
+    }
+    div{
+        background-color: rgb(235, 230, 230);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 80px;
+        border-radius: 15px;
+        color: black;
+    }
+    input{
+        padding: 15px;
+        border: none;
+        outline: none;
+        font-size: 15px;
+    }
+    button{
+        background-color: blue;
+        border: none;
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        color: aliceblue;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    button:hover{
+
+        background-color: aqua;
+    }
+</style>
+<body>
+    <div>
+        <h1>login</h1>
+        <input type="text" placeholder="Nome">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Enviar</button>
+    </div>
+
+
 
 </body>
 <script src="JS.JS"></script>

@@ -1,7 +1,12 @@
-.div1{
+body{
+  background: rgb(9,0,182);
+background: linear-gradient(90deg, rgba(9,0,182,1) 0%, rgba(0,86,168,1) 42%, rgba(0,154,223,1) 100%);
+}
+
+
+/* .div1{
   background-color: aqua;
   width: 400px;
   border: 2px solid black;
   border-radius: 20px;
-}
- 
+} */
